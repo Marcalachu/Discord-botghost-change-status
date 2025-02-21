@@ -1,8 +1,10 @@
-{ pkgs }: {
-	deps = [
-		pkgs.nodejs-12_x
-		pkgs.nodePackages.typescript-language-server
+{ pkgs ? import <nixpkgs> {} }:
+let
+	myPackages = [
 		pkgs.yarn
-		pkgs.replitPackages.jest
+		pkgs.jest  # Asegúrate de que este sea el nombre correcto
 	];
+in
+pkgs.mkShell {
+	buildInputs = myPackages;
 }
