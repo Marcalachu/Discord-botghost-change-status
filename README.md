@@ -20,6 +20,7 @@ Status Management:
 Change the bot's status using the !status command followed by your desired status.
 Example: !status Playing music
 Message Manipulation:
+Or replace it in the index.js in the line 12
 
 !say: Makes the bot repeat a message sent to it.
 Example: !say Hello, everyone!
