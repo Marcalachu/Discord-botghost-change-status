@@ -5,7 +5,7 @@ This is a comprehensive Discord bot designed to provide various functionalities 
    ```bash
    npm install
 Create a Discord Bot Application:
-
+# This program work in replit
 Visit the Discord Developer Portal and create a new application.
 Create a bot user for your application and obtain a bot token.
 Set Your Discord Bot Token:
